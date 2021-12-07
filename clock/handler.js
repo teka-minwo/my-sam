@@ -8,5 +8,5 @@ exports.clock = async (event) => {
     statusCode: 200,
     body: JSON.stringify(message),
   };
-  return response;
+  return response + "Teka";
 };
