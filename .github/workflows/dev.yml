@@ -17,7 +17,7 @@ jobs:
           aws-region: us-east-1
       # sam build 
       - run: sam build --use-container
-      - run: sam local invoke "HelloWorldFunction"
+      - run: sam local invoke "xyzFunction"
 
 # Run Unit tests- Specify unit tests here 
 
